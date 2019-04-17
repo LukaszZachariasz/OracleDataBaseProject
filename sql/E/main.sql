@@ -1,0 +1,6 @@
+--Usuniecie Wyzwalaczy
+DROP TRIGGER TGR_KONTROLA_KARTEK;
+DROP TRIGGER TGR_LOG_OSOBA;
+
+--Opró¿nienie kosza
+PURGE RECYCLEBIN;
